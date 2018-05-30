@@ -1,0 +1,211 @@
+.wrap {
+ padding-top: 85px;
+    .center {
+        .mandatory {
+            padding: 10px 30px 20px;
+            width: 690px;
+            .mandatory-input-box {
+                line-height: 60px;
+                overflow: hidden;
+                border-bottom: 1px solid #ccc;
+                p {
+                    float: left;
+                    color: #333;
+                    font-size: 26px;
+                    span {
+                        color: #44e2d9;
+                        display: inline-block;
+                        margin-right: 15px;
+                    }
+                }
+                input {
+                    width: 500px;
+                    float: right;
+                    border: none;
+                    background: none;
+                    line-height: 60px;
+                    outline: none;
+                    color: #333;
+                    font-size: 22px;
+                    text-align: right;
+                    &::-moz-placeholder,
+                    &::-webkit-input-placeholder,
+                    &:-ms-input-placeholder {
+                        text-align: right;
+                        color: #999;
+                        font-size: 22px;
+                    }
+                }
+                &.code-box {
+                    .code {
+                        float: left;
+                        text-align: left;
+                        width: 200px;
+                        height: 80px;
+                        line-height: 80px;
+                        &::-moz-placeholder,
+                        &::-webkit-input-placeholder,
+                        &:-ms-input-placeholder {
+                            text-align: left;
+                            color: #999;
+                            font-size: 22px;
+                        }
+                    }
+                    p {
+                        margin-right: 50px;
+                        line-height: 80px;
+                    }
+                    button {
+                        width: 180px;
+                        height: 50px;
+                        display: block;
+                        float: right;
+                        border: none;
+                        background: #d1ffee;
+                        outline: none;
+                        color: #00c4b0;
+                        font-size: 22px;
+                        text-align: center;
+                        line-height: 50px;
+                        margin-top: 15px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        .info {
+            color: #999;
+            font-size: 22px;
+            line-height: 60px;
+            padding: 0 30px;
+            background: #ebebeb url('../img/help_02.png') no-repeat 30px;
+            background-size: 20px 24px;
+            text-indent: 30px;
+        }
+        .center-optional {
+            padding: 10px 30px 20px;
+            width: 690px;
+            .optional-input-box {
+                line-height: 60px;
+                overflow: hidden;
+                border-bottom: 1px solid #ccc;
+                p {
+                    float: left;
+                    color: #333;
+                    font-size: 26px;
+                    span {
+                        color: #44e2d9;
+                        display: inline-block;
+                        margin-right: 15px;
+                    }
+                }
+                input {
+                    width: 500px;
+                    float: right;
+                    border: none;
+                    background: none;
+                    line-height: 60px;
+                    outline: none;
+                    color: #333;
+                    font-size: 22px;
+                    text-align: right;
+                    &::-moz-placeholder,
+                    &::-webkit-input-placeholder,
+                    &:-ms-input-placeholder {
+                        text-align: right;
+                        color: #999;
+                        font-size: 22px;
+                    }
+                }
+                &.age-box {
+                    .age {
+                        width: 100px;
+                        height: 30px;
+                        background-color: #ccc;
+                        float: right;
+                        overflow: hidden;
+                        margin-top: 15px;
+                        button {
+                            width: 30px;
+                            height: 30px;
+                            float: right;
+                            background: none;
+                            border: none;
+                            outline: none;
+                            font-size: 24px;
+                            color: #333;
+                            line-height: 30px;
+                            text-align: center
+                        }
+                        input {
+                            width: 40px;
+                            height: 28px;
+                            background-color: #fff;
+                            margin-top: 1px;
+                            line-height: 28px;
+                            text-align: center;
+                        }
+                    }
+                }
+                &.sex-box {
+                    .sex {
+                        float: right;
+                        label {
+                            float: left;
+                            width: 60px;
+                            color: #999;
+                            font-size: 22px;
+                            margin-left: 20px;
+                            text-align: right;
+                            input {
+                                display: none;
+                                &:checked+i {
+                                    background-image: url('../img/help_04.png');
+                                }
+                            }
+                            i {
+                                // display: block;
+                                width: 28px;
+                                height: 28px;
+                                background-image: url('../img/help_03.png');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: 28px;
+                                float: left;
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+                &.describe{
+                    p{
+                        float: none;
+                    }
+                    input{
+                        width: 100%;
+                        text-align: left;
+                        float: none;
+                        display: block;
+                        text-indent: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .register-btn{
+        width: 600px;
+        height: 80px;
+        border-radius: 10px;
+        line-height: 80px;
+        text-align: center;
+        border: none;
+        outline: none;
+        background-color: #e66c00;
+        font-size: 30px;
+        margin: 60px auto 0;
+        display: block;
+        a{
+            color: #fff;
+        }
+    }
+}

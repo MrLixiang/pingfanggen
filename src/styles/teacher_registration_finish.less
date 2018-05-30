@@ -1,0 +1,96 @@
+.teacher_top{
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 100px;
+    .speed{
+        overflow: hidden;
+        margin-left:130px;
+        margin-top: 25px;
+        li{
+           position: relative;
+            float: left;
+            &::after{
+                position: absolute;
+                content: '';
+                display: block;
+                width: 130px;
+                height: 5px;
+                top: 10px;
+                left: 24px;
+                background-color: #1abc9c;
+            }
+            img{
+                padding-right: 130px;
+                width: 24px;
+                height: 24px;
+                
+            }
+        }
+        li:last-child{
+            &::after{
+                display: none;
+            }
+        }
+        li:first-child{
+            &::after{
+               background-color:#02d3aa; 
+            }
+        }
+    }
+    .teacher_speed{
+       overflow: hidden;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        li{
+            float: left;
+            font-size: 22px;
+            color: #1abc9c;
+            margin-right: 45px;
+        }
+        li:first-child{
+            color: #1abc9c;
+            margin-left: 100px;
+        }
+        li:last-child{
+            margin-right: 0;
+            margin-left: 15px;
+            color: #1abc9c;
+        }
+    }
+
+}
+.jiange{
+    background-color: #efefef;
+    height: 30px;
+}
+.finish{
+    margin-top: 50px;
+    .aa{
+        text-align: center;
+        img{
+            width: 44px;
+            height: 44px;
+            vertical-align: middle
+        }
+        span{
+            font-size: 30px;
+        }
+    }
+    
+    .bb{
+        text-align: center;
+        font-size: 24px;
+        color: #666;
+        margin-top: 20px;
+    }
+}
+.hui{
+    margin: 30px auto 0;
+    display: block;
+    border: 1px solid #01b6b6;
+    width: 160px;
+    font-size: 28px;
+    line-height: 58px;
+    color: #01b6b6;
+    text-align: center
+}

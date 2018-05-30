@@ -1,0 +1,96 @@
+form{
+    margin-top: 120px;
+    .choice{
+        overflow: hidden;
+        display: flex;
+        justify-content:center;
+        margin-bottom: 40px;
+        a{
+            color: black;
+            position: relative;
+            display: inline-block;
+            width: 340px;
+            line-height: 84px;
+            font-size: 32px;
+            background-color: #f5f5f5;
+            text-align: center;
+            &:after{
+                content: '';
+                display: block;
+                width: 340px;
+                height: 8px;
+                background-color: #cccccc;
+            }
+            
+        }
+        .on{
+            span{
+                position: absolute;
+                left:154px;
+                top: 64px;
+                width: 0; 
+                height: 0; 
+                border-left: 14px solid transparent; 
+                border-right: 14px solid transparent; 
+                border-bottom: 20px solid #ef7000; 
+            }
+            &:after{
+                content: '';
+                display: block;
+                width: 340px;
+                height: 8px;
+                background-color: #ef7000;
+            }
+            
+        }
+        
+    }
+    
+    .info{
+        margin-bottom: 40px;
+        input {
+            width: 600px;
+            height: 78px;
+            margin: 30px auto;
+            display: block;
+            padding-left: 60px;
+            border: 1px solid #DBDBDB;
+    
+        } 
+        input:first-child{
+            background-image: url('../img/teachters-login-pic1.png');
+            background-repeat: no-repeat;
+            background-size: 28px,34px;
+            background-position:10px 28px;
+        }
+        input:last-child{
+            background-image: url('../img/teachters-login-pic2.png');
+            background-repeat: no-repeat;
+            background-position:10px 28px;
+            background-size: 28px,34px;
+        }
+    }
+    button{
+        width: 680px;
+        margin: 0 auto;
+        display: block;
+        color: white;
+        font-size: 32px;
+        line-height: 78px;
+        border: transparent;
+        background-color: #00cc35;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .on1{
+        background-color: #ef7000;
+    }
+    .gg{
+        display: flex;
+        justify-content: space-around;
+        a{
+           color: #666;
+           margin: 0 130px 0 ;
+        }
+    }
+}

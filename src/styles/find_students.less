@@ -1,0 +1,127 @@
+.top-nav{
+    background-color: white;
+    width: 690px;
+    display: flex;
+    margin-top: 86px;
+    justify-content: center;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    li{
+        border-right: 1px solid #cccccc;
+        width: 180px;
+        text-align: center;
+        font-size: 28px;
+        color: #666;
+        line-height: 80px;
+        background-image: url(../img/find-students-arrow.png);
+        background-repeat: no-repeat;
+        background-size: 28px,16px;
+        background-position:150px,20px;
+        position: relative;
+    }
+    .on{
+        span{
+            width: 0; 
+            height: 0; 
+            border-left: 10px solid transparent; 
+            border-right: 10px solid transparent; 
+            border-bottom: 16px solid black; 
+            position: absolute;
+            left: 82px;
+            top: 62px;
+        }
+    }
+    li:last-child{
+        border-right:none;
+    }
+}
+.list{
+    position: relative;
+    top:150px;
+    margin-bottom: 100px;
+    li{
+        overflow: hidden;
+        border-bottom: 1px solid #cccccc;
+        padding-left: 30px;
+        a{
+            margin-top: 30px;
+            display: inline-block;
+            position: relative;
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            span{
+                font-size: 24px;
+                line-height: 50px;
+                text-align: center;
+                width: 200px;
+                position: absolute;
+                top: 150px;
+                left: 0px;
+                background-color:rgba(0,0,0,0.5);
+                color: white;
+                border-radius: 10px;
+            }
+        }
+        .info{
+            margin-left: 20px;
+            display: inline-block;
+            margin-bottom: 20px;
+            .subject{
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+            .require{
+                font-size: 24px;
+                margin-bottom: 14px;
+                span{
+                    color: #666;
+                }
+            }
+            .survey{
+                font-size: 24px;
+                margin-bottom: 14px;
+                span{
+                    color: #666;
+                }
+            }
+            .pag{
+                display:flex;
+                justify-content:center;
+                margin-bottom: 14px;
+                span:first-child{
+                    display:inline-block;
+                    width:160px;
+                    text-align: center;
+                    line-height: 36px;
+                    font-size: 24px;
+                    color: #ef7000;
+                    border: 2px solid #ef7000;
+                    border-radius: 10px;
+                    margin-right: 20px;
+                }
+                span:last-child{
+                    display:inline-block;
+                    width:160px;
+                    text-align: center;
+                    line-height: 36px;
+                    font-size: 24px;
+                    height: 36px;
+                    color: #1abc9c;
+                    border-radius: 10px; 
+                    border: 2px solid #1abc9c;
+                }
+            }
+            .time{
+                font-size: 24px;
+                span{
+                    color: #666;
+                }
+            }
+        }
+    }
+}
